@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单-5.6 </title>
+</head>
+
+<body>
+    <form method="post" action="save.php">
+        账户:
+        <input type="text" placeholder="请输入用户名" name="myName" />
+        <br>
+        密码:
+        <input type="password" placeholder="请输入密码" name="pass">
+        <br>
+        <br>
+        <input type="submit" value="提交" />
+        <input type="reset" value="重置" />
+        <br>
+        <br>
+        <label>性别:</label>
+        <label>男</label>
+        <input type="radio" value="1" name="gender" />
+        <label>女</label>
+        <input type="radio" value="2" name="gender" />
+        <label>爱好:</label>
+        <select>
+            <option value="看书">看书</option>
+            <option value="旅游">旅游</option>
+            <option value="运动">运动</option>
+            <option value="购物">购物</option>
+        </select>
+
+    </form>
+</body>
+
+</html>
