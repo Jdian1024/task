@@ -15,6 +15,7 @@
         }
         h3 {
             text-align: center;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -43,7 +44,7 @@
         </p>
         <hr />
     </ol>
-    <table border="1">
+    <table border="1"><table align="center" valign="center" border="1px">
         <caption>素人说</caption>
         <tr>
             <th>年龄</th>
@@ -73,6 +74,49 @@
     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588590453237&di=6db48e025c54f427d94f4f4886d8da4a&imgtype=0&src=http%3A%2F%2Fimg12.360buyimg.com%2FpopWaterMark%2Fjfs%2Ft4246%2F269%2F1601715265%2F218470%2F6e638638%2F58c3c261N536dbe89.png"title="小棕瓶">
         <p>来&nbsp;&nbsp;源：<a href="#">小&nbsp;&nbsp;红&nbsp;&nbsp;书</a></p>
         <p>购买方式：<a href="https://m.tb.cn/h.V8cvTKF?sm=e84c0e ">淘宝</a></p>
+        <h3>完善信息，请让我更好的了解你
+        <form method="post" action="save.php">
+            <label for="username">用户名:</label>
+            <input type="text" name="username" id="username" value="" placeholder="请输入用户名"/>
+            <label for="pass">密码:</label>
+            <input type="password" name="pass" id="pass" value="" placeholder="请输入密码"/>
+            <input type="submit" value="确定" name="submit" />
+        </h3>
+        </form>
+            <h3>想重置怎么办？点这里！
+
+          <form> <input type="reset" value="重置" name="reset" />
+            <form method="post" action="save.php">
+                账户:<input  type ="text"  name="myName" placeholder="请输入用户名"/>
+                <br>
+                密码:<input  type="password"  name="pass" type="password" placeholder="请输入密码"/></h3>
+            </form>   
+                <h3>请告诉我你的年龄<input type="number" /></h3>
+            </form>
+            <h3>这里有你想知道的<input type="url"/></h3>
+            <h3>如果你有好的推荐</h3>
+            <form  method="post" action="save.php"  >
+                <label>联系我们</label>
+                <textarea cols="50" rows="10" >在这里输入内容...</textarea>
+        </form>
+        <h3>您对产品的满意度</h3>
+        <form action="save.php" method="post">
+            <label>差</label>
+    <input type="radio" value="1"  name="gender" />
+    <label>一般</label>
+    <input type="radio" value="2"  name="gender" />
+    <label>满意</label>
+    <input type="radio" value="3"  name="gender" />
+        </form>
+        <h3>你的购买渠道</h3>
+        <form>
+            <select>
+                <option value="淘宝">淘宝</option>
+                <option value="专柜">专柜</option>
+                <option value="国外代购">国外代购</option>
+                <option value="其他">其他</option>
+            </select>
+        </form>
 </body>
 
 </html>
