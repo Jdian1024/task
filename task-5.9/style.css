@@ -1,0 +1,22 @@
+span{
+    color:#1E90FF;
+}
+.teacher{
+    color:#802A2A;
+}
+.bigsize{
+    font-size:25px;
+}
+#student{
+    color:#D2691E;
+}
+.sun>span{
+    border:1px solid #FF00FF;
+}
+.water span{
+   border:1px solid #0000FF;
+}
+#moon span:hover{
+    color:red;
+    font-size:30px;
+}
